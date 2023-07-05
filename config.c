@@ -4,19 +4,25 @@
 #include "util.h"
 
 Block blocks[] = {
-    {"sb-tasks",  10,  8},
-    {"sb-yt-monitor",  0,  12},
-    {"sb-mpv-music",  1,  21},
-    {"sb-mpv",  1,  22},
-    {"sb-music",  1,  11},
-    {"sb-memory",  10,  6},
-    {"sb-cpu",    10,  5},
-    {"sb-volume",  0,  10},
-    {"sb-battery",  5,  4},
-    {"sb-forecast",  18000,  23},
-    {"sb-clock",  60,  3},
-    {"sb-internet",  5,  2},
-    {"sb-actions",  0,  1},
+    {"sb-tasks",            10,     19},
+    {"sb-yt-monitor",       0,      18},
+    {"sb-mpv-music",        1,      17},
+    {"sb-mpv",              1,      16},
+    {"sb-mpv-prev",         0,      15},
+    {"sb-mpv-play",         1,      14},
+    {"sb-mpv-next",         0,      13},
+    {"sb-music",            1,      12},
+    {"sb-music-prev",       0,      11},
+    {"sb-music-play",       1,      10},
+    {"sb-music-next",       0,      9},
+    {"sb-memory",           10,     8},
+    {"sb-cpu",              10,     7},
+    {"sb-volume",           0,      6},
+    {"sb-battery",          5,      5},
+    {"sb-forecast",         18000,  4},
+    {"sb-clock",            60,     3},
+    {"sb-internet",         5,      2},
+    /* {"sb-actions",          0,      1}, */
     /* {"sb-mail",    600,  1 }, */
     /* {"sb-music",   0,    2 }, */
     /* {"sb-disk",    1800, 3 }, */
