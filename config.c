@@ -8,13 +8,13 @@ Block blocks[] = {
     {"sb-yt-monitor",       0,      18},
     {"sb-mpv-music",        1,      17},
     {"sb-mpv",              1,      16},
-    {"sb-mpv-prev",         0,      15},
-    {"sb-mpv-play",         1,      14},
-    {"sb-mpv-next",         0,      13},
+    /* {"sb-mpv-prev",         1,      15}, */
+    /* {"sb-mpv-play",         1,      14}, */
+    /* {"sb-mpv-next",         1,      13}, */
     {"sb-music",            1,      12},
-    {"sb-music-prev",       0,      11},
-    {"sb-music-play",       1,      10},
-    {"sb-music-next",       0,      9},
+    /* {"sb-music-prev",       0,      11}, */
+    /* {"sb-music-play",       1,      10}, */
+    /* {"sb-music-next",       0,      9}, */
     {"sb-memory",           10,     8},
     {"sb-cpu",              10,     7},
     {"sb-volume",           0,      6},

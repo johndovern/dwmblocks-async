@@ -5,4 +5,4 @@
 
 int gcd(int, int);
 void closePipe(int[2]);
-void trimUTF8(char*, unsigned int);
+void trimUTF8(char*);

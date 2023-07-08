@@ -17,7 +17,7 @@ void closePipe(int pipe[2]) {
     close(pipe[1]);
 }
 
-void trimUTF8(char* buffer, unsigned int size) {
+void old_trimUTF8(char* buffer, unsigned int size) {
     int length = (size - 1) / 4;
     int count = 0, j = 0;
     char ch = buffer[j];
@@ -38,4 +38,10 @@ void trimUTF8(char* buffer, unsigned int size) {
     buffer[j] = ' ';
     while (j >= 0 && buffer[j] == ' ') j--;
     buffer[j + 1] = '\0';
+}
+
+void trimUTF8(char* buffer) {
+    while (*buffer != '\0' && *buffer != '\n')
+        ++buffer;
+    *buffer = '\0';
 }
